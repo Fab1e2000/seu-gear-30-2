@@ -1,0 +1,157 @@
+{
+  "checked_on": "2026-11-01",
+  "source_commit": "9732a2820f4cdf91fa7d1d0cc95442376660f5dd",
+  "scope": "Physical text structure only: headers, nonempty data rows, delimiters and column counts; not a signal quality or numeric-value audit.",
+  "files": [
+    {
+      "file": "Chipped_20_0.csv",
+      "header_lines": 16,
+      "title": "c_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    },
+    {
+      "file": "Chipped_30_2.csv",
+      "header_lines": 16,
+      "title": "c_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    },
+    {
+      "file": "Health_20_0.csv",
+      "header_lines": 16,
+      "title": "Health_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    },
+    {
+      "file": "Health_30_2.csv",
+      "header_lines": 16,
+      "title": "Health_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    },
+    {
+      "file": "Miss_20_0.csv",
+      "header_lines": 16,
+      "title": "m_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    },
+    {
+      "file": "Miss_30_2.csv",
+      "header_lines": 16,
+      "title": "m_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    },
+    {
+      "file": "Root_20_0.csv",
+      "header_lines": 16,
+      "title": "root_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    },
+    {
+      "file": "Root_30_2.csv",
+      "header_lines": 16,
+      "title": "root_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    },
+    {
+      "file": "Surface_20_0.csv",
+      "header_lines": 16,
+      "title": "mm_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    },
+    {
+      "file": "Surface_30_2.csv",
+      "header_lines": 16,
+      "title": "mm_20_0_1-10",
+      "header_declared_total_rows": 4194304,
+      "actual_data_rows": 1048560,
+      "data_column_counts": {
+        "8": 1048560
+      },
+      "data_delimiters": {
+        "tab": 1048560
+      },
+      "blank_data_lines": 0,
+      "first_width_anomalies": []
+    }
+  ]
+}

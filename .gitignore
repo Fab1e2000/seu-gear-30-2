@@ -1,0 +1,18 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+/原始数据/SEU/
+/工作目录/outputs/
+*.npz
+*.npy
+*.pt
+*.pth
+*.joblib
+node_modules/
+/工作目录/汇报材料/汇报交付/.build/
+
+# 第三方论文全文与原页扫描不纳入仓库
+SEU-原始论文-Shao-2019.pdf
+原论文页-*.png
+/工作目录/来源核查/原论文图页/

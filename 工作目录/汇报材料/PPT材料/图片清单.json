@@ -1,0 +1,488 @@
+[
+  {
+    "file": "06_CNN调参与评价/CNN全部参数组合对比.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-CNN训练/CNN全部参数组合对比.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "06_CNN调参与评价/CNN搜索结果.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-CNN训练/CNN搜索结果.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "06_CNN调参与评价/CNN正式评价.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-CNN训练/final/CNN正式评价.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "08_附录_2048点历史实验/六组输入对比.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-RF训练/expanded-grid/六组输入对比.png",
+    "usage": "附录"
+  },
+  {
+    "file": "08_附录_2048点历史实验/RMS误判对照.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-RF训练/final/results/RMS误判对照.png",
+    "usage": "附录"
+  },
+  {
+    "file": "08_附录_2048点历史实验/测试混淆矩阵.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-RF训练/final/results/测试混淆矩阵.png",
+    "usage": "附录"
+  },
+  {
+    "file": "04_随机森林/两种窗长混淆矩阵.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-RF训练/final8192/results/两种窗长混淆矩阵.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "03_数据预处理与窗长/数据分段与切窗_30_2.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-分类实验/数据分段与切窗_30_2.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Chipped_30_2_start_vs_middle.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Chipped_30_2_start_vs_middle.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Chipped_30_2_three_axes.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Chipped_30_2_three_axes.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Health_30_2_start_vs_middle.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Health_30_2_start_vs_middle.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Health_30_2_three_axes.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Health_30_2_three_axes.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Miss_30_2_start_vs_middle.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Miss_30_2_start_vs_middle.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Miss_30_2_three_axes.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Miss_30_2_three_axes.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/RMS-xz散点图_30_2.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/RMS-xz散点图_30_2.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/RMS-yz散点图_30_2.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/RMS-yz散点图_30_2.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/RMS-峭度散点图_30_2.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/RMS-峭度散点图_30_2.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/RMS-峰值因子散点图_30_2.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/RMS-峰值因子散点图_30_2.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Root_30_2_start_vs_middle.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Root_30_2_start_vs_middle.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Root_30_2_three_axes.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Root_30_2_three_axes.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Surface_30_2_start_vs_middle.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Surface_30_2_start_vs_middle.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/Surface_30_2_three_axes.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/Surface_30_2_three_axes.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/x均值_前后段观察_30_2.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/全部双特征组合/x均值_前后段观察_30_2.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/双特征组合_重点发现_30_2.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/全部双特征组合/双特征组合_重点发现_30_2.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/时域特征对比_30_2.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/时域特征对比_30_2.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "02_数据直观认识/窗口特征变化_30_2.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/窗口特征变化_30_2.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "04_随机森林/01_整体流程.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-流程说明/01_整体流程.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "04_随机森林/02_时间分块与三折.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-流程说明/02_时间分块与三折.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "04_随机森林/03_联合调参.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-流程说明/03_联合调参.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "03_数据预处理与窗长/候选窗长_xyRMS联合分布.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-窗长比较/候选窗长_xyRMS联合分布.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "03_数据预处理与窗长/候选窗长_xzRMS联合分布.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-窗长比较/候选窗长_xzRMS联合分布.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "01_数据背景与频域/低频功率谱.png",
+    "type": "已有实验图",
+    "source": "outputs/SEU-转速调查/低频功率谱.png",
+    "usage": "正文或附录"
+  },
+  {
+    "file": "01_数据背景与频域/01_任务与数据范围.png",
+    "type": "方法示意",
+    "source": "来源核查/SEU-采样率与实验台核查.md；当前笔记/SEU-数据预处理.md",
+    "usage": "正文"
+  },
+  {
+    "file": "01_数据背景与频域/01_任务与数据范围.svg",
+    "type": "方法示意",
+    "source": "来源核查/SEU-采样率与实验台核查.md；当前笔记/SEU-数据预处理.md",
+    "usage": "正文"
+  },
+  {
+    "file": "07_两方案对比与结论/01_两路线整体框架.png",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "07_两方案对比与结论/01_两路线整体框架.svg",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "03_数据预处理与窗长/01_共用时间分块_CNN窗口数.png",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "03_数据预处理与窗长/01_共用时间分块_CNN窗口数.svg",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "03_数据预处理与窗长/02_窗长_时长_样本量.png",
+    "type": "配置计算",
+    "source": "BLOCK=209712；每块 floor(BLOCK/L)；五类×四块",
+    "usage": "正文"
+  },
+  {
+    "file": "03_数据预处理与窗长/02_窗长_时长_样本量.svg",
+    "type": "配置计算",
+    "source": "BLOCK=209712；每块 floor(BLOCK/L)；五类×四块",
+    "usage": "正文"
+  },
+  {
+    "file": "03_数据预处理与窗长/03_逐轴标准化.png",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "03_数据预处理与窗长/03_逐轴标准化.svg",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "04_随机森林/01_八个时域特征含义.png",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "04_随机森林/01_八个时域特征含义.svg",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "04_随机森林/02_随机森林分类原理.png",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "04_随机森林/02_随机森林分类原理.svg",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/01_CNN023网络结构.png",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/01_CNN023网络结构.svg",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/02_多通道卷积算例.png",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/02_多通道卷积算例.svg",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/03_ReLU与池化算例.png",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/03_ReLU与池化算例.svg",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/04_全局平均与五分类.png",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/04_全局平均与五分类.svg",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/05_训练与反向传播流程.png",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/05_训练与反向传播流程.svg",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/06_链式法则与梯度下降.png",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "05_CNN结构与原理/06_链式法则与梯度下降.svg",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/01_调参流程_180次.png",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/01_调参流程_180次.svg",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/02_六组复跑分布.png",
+    "type": "实验结果",
+    "source": "outputs/SEU-CNN训练/refined_ranking.json",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/02_六组复跑分布.svg",
+    "type": "实验结果",
+    "source": "outputs/SEU-CNN训练/refined_ranking.json",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/03_早停与最佳模型.png",
+    "type": "实验结果",
+    "source": "outputs/SEU-CNN训练/results/CNN023_seed42_fold2/history.json",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/03_早停与最佳模型.svg",
+    "type": "实验结果",
+    "source": "outputs/SEU-CNN训练/results/CNN023_seed42_fold2/history.json",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/04_正式训练轮数依据.png",
+    "type": "实验结果",
+    "source": "outputs/SEU-CNN训练/refined_ranking.json",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/04_正式训练轮数依据.svg",
+    "type": "实验结果",
+    "source": "outputs/SEU-CNN训练/refined_ranking.json",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/05_正式训练与评价流程.png",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "06_CNN调参与评价/05_正式训练与评价流程.svg",
+    "type": "方法示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "07_两方案对比与结论/02_RF与CNN混淆矩阵.png",
+    "type": "实验结果",
+    "source": "RF final8192 与 CNN final 的 summary.json",
+    "usage": "正文"
+  },
+  {
+    "file": "07_两方案对比与结论/02_RF与CNN混淆矩阵.svg",
+    "type": "实验结果",
+    "source": "RF final8192 与 CNN final 的 summary.json",
+    "usage": "正文"
+  },
+  {
+    "file": "07_两方案对比与结论/03_结果汇总.png",
+    "type": "实验结果",
+    "source": "两条路线正式评价 summary.json",
+    "usage": "正文"
+  },
+  {
+    "file": "07_两方案对比与结论/03_结果汇总.svg",
+    "type": "实验结果",
+    "source": "两条路线正式评价 summary.json",
+    "usage": "正文"
+  },
+  {
+    "file": "09_答辩原理补充/01_宏平均F1原理.png",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "09_答辩原理补充/01_宏平均F1原理.svg",
+    "type": "教学示意",
+    "source": "当前实验配置与训练脚本",
+    "usage": "正文"
+  },
+  {
+    "file": "10_来源资料/SEU-采样率与实验台核查.md",
+    "type": "来源资料",
+    "source": "来源核查/SEU-采样率与实验台核查.md",
+    "usage": "核查；Issue 截图出处不完整，不作已确认设备参数图"
+  },
+  {
+    "file": "10_来源资料/SEU-原始论文-Shao-2019.pdf",
+    "type": "来源资料",
+    "source": "来源核查/SEU-原始论文-Shao-2019.pdf",
+    "usage": "核查；Issue 截图出处不完整，不作已确认设备参数图"
+  },
+  {
+    "file": "10_来源资料/SEU-Issue3-用户提供的实验说明.jpg",
+    "type": "来源资料",
+    "source": "来源核查/SEU-Issue3-用户提供的实验说明.jpg",
+    "usage": "核查；Issue 截图出处不完整，不作已确认设备参数图"
+  },
+  {
+    "file": "02_数据直观认识/双特征全组合附录/全部276种双特征组合_30_2.pdf",
+    "type": "已有实验图",
+    "source": "outputs/SEU-数据直观认识/全部双特征组合/全部276种双特征组合_30_2.pdf",
+    "usage": "附录；全组合检索"
+  },
+  {
+    "file": "10_来源资料/原论文页-07.png",
+    "type": "原论文页面",
+    "source": "Shao 等，2019，PDF 第 7 页",
+    "usage": "期刊页 2452：Fig. 8 实验台照片；同页其他图属于轴承数据；文中分数属于原论文实验"
+  },
+  {
+    "file": "10_来源资料/原论文页-08.png",
+    "type": "原论文页面",
+    "source": "Shao 等，2019，PDF 第 8 页",
+    "usage": "期刊页 2453：Table VI 故障类型、IV-C 数据集工况说明；文中分数属于原论文实验"
+  },
+  {
+    "file": "10_来源资料/原论文页-09.png",
+    "type": "原论文页面",
+    "source": "Shao 等，2019，PDF 第 9 页",
+    "usage": "期刊页 2454：五分类与原论文实验设置；文中分数属于原论文实验"
+  }
+]

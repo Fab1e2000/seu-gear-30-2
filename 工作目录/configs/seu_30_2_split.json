@@ -1,0 +1,78 @@
+{
+  "condition": "30_2",
+  "method": "expanding_time_series_3fold",
+  "indexing": "zero_based_stop_exclusive",
+  "samples_per_file": 1048560,
+  "window_size": 2048,
+  "stride": 2048,
+  "tail_policy": "drop_in_each_block",
+  "source_paths_relative_to": "project_root",
+  "source_files": [
+    "原始数据/SEU/gearbox/gearset/Health_30_2.csv",
+    "原始数据/SEU/gearbox/gearset/Chipped_30_2.csv",
+    "原始数据/SEU/gearbox/gearset/Miss_30_2.csv",
+    "原始数据/SEU/gearbox/gearset/Root_30_2.csv",
+    "原始数据/SEU/gearbox/gearset/Surface_30_2.csv"
+  ],
+  "blocks": {
+    "B1": {
+      "start": 0,
+      "stop": 209712
+    },
+    "B2": {
+      "start": 209712,
+      "stop": 419424
+    },
+    "B3": {
+      "start": 419424,
+      "stop": 629136
+    },
+    "B4": {
+      "start": 629136,
+      "stop": 838848
+    },
+    "B5": {
+      "start": 838848,
+      "stop": 1048560
+    }
+  },
+  "folds": [
+    {
+      "train_blocks": [
+        "B1"
+      ],
+      "validation_blocks": [
+        "B2"
+      ]
+    },
+    {
+      "train_blocks": [
+        "B1",
+        "B2"
+      ],
+      "validation_blocks": [
+        "B3"
+      ]
+    },
+    {
+      "train_blocks": [
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "validation_blocks": [
+        "B4"
+      ]
+    }
+  ],
+  "final_train_blocks": [
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "test_blocks": [
+    "B5"
+  ],
+  "gap_samples": 0
+}

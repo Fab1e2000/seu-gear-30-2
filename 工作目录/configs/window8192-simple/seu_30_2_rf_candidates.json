@@ -1,0 +1,1156 @@
+{
+  "status": "proposed_not_run",
+  "feature_sets": {
+    "A": [
+      "x_rms",
+      "z_rms"
+    ],
+    "B": [
+      "x_rms",
+      "y_rms",
+      "z_rms"
+    ],
+    "C": [
+      "x_mean",
+      "x_std",
+      "x_rms",
+      "x_peak",
+      "x_peak_to_peak",
+      "x_skewness",
+      "x_kurtosis",
+      "x_crest_factor",
+      "y_mean",
+      "y_std",
+      "y_rms",
+      "y_peak",
+      "y_peak_to_peak",
+      "y_skewness",
+      "y_kurtosis",
+      "y_crest_factor",
+      "z_mean",
+      "z_std",
+      "z_rms",
+      "z_peak",
+      "z_peak_to_peak",
+      "z_skewness",
+      "z_kurtosis",
+      "z_crest_factor"
+    ]
+  },
+  "parameter_grid": {
+    "n_estimators": [
+      200,
+      500
+    ],
+    "max_depth": [
+      4,
+      8,
+      null
+    ],
+    "min_samples_leaf": [
+      1,
+      3,
+      8
+    ],
+    "max_features": [
+      "sqrt",
+      1.0
+    ]
+  },
+  "fixed_parameters": {
+    "random_state": 42,
+    "criterion": "gini",
+    "bootstrap": true,
+    "class_weight": null,
+    "min_samples_split": 2,
+    "max_samples": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "ccp_alpha": 0.0
+  },
+  "scoring": "f1_macro",
+  "fold_aggregation": "unweighted_mean",
+  "record_fold_scores_and_std": true,
+  "configurations": [
+    {
+      "id": "RF037",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF038",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF039",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF040",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF041",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF042",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF043",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF044",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF045",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF046",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF047",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF048",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF049",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF050",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF051",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF052",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF053",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF054",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF055",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF056",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF057",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF058",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF059",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF060",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF061",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF062",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF063",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF064",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF065",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF066",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF067",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF068",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF069",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF070",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF071",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF072",
+      "feature_set": "B",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF073",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF074",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF075",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF076",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF077",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF078",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF079",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF080",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF081",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF082",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF083",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF084",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF085",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF086",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF087",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF088",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF089",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF090",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF091",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF092",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF093",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF094",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF095",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF096",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF097",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF098",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF099",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF100",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF101",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF102",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF103",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF104",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF105",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF106",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF107",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF108",
+      "feature_set": "C",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF001",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF002",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF003",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF004",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF005",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF006",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF007",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF008",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF009",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF010",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF011",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF012",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF013",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF014",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF015",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF016",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF017",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF018",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF019",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF020",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF021",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF022",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF023",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF024",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 4,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF025",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF026",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF027",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF028",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF029",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF030",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": 8,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF031",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF032",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF033",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF034",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_features": 1.0
+      }
+    },
+    {
+      "id": "RF035",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": "sqrt"
+      }
+    },
+    {
+      "id": "RF036",
+      "feature_set": "A",
+      "parameters": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 8,
+        "max_features": 1.0
+      }
+    }
+  ]
+}
